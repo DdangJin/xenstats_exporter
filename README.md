@@ -7,15 +7,15 @@
 ## Docker Usage
 
     Building:
-    docker build  --rm --force-rm --no-cache -t lovoo/xenstats_exporter .
+    docker build  --rm --force-rm --no-cache -t DdangJin/xenstats_exporter .
 
     Running:
-    docker run  -p 9290:9290 --rm  -v /path/to/config/file/:/configs lovoo/xenstats_exporter:latest  -config.file /configs/config.yml
+    docker run  -p 9290:9290 --rm  -v /path/to/config/file/:/configs DdangJin/xenstats_exporter:latest  -config.file /configs/config.yml
 
 ## Building
 
-    go get -u github.com/lovoo/xenstats_exporter
-    go install github.com/lovoo/xenstats_exporter
+    go get -u github.com/DdangJin/xenstats_exporter
+    go install github.com/DdangJin/xenstats_exporter
 
 ## Config
 
