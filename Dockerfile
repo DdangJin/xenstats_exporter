@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 ENV GOPATH /go
-ENV APPPATH $GOPATH/src/github.com/lovoo/xenstat_exporter
+ENV APPPATH $GOPATH/src/github.com/DdangJin/xenstat_exporter
 
 RUN apk -U add --update -t build-deps go git
 
