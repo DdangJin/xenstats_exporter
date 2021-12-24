@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/nilshell/xmlrpc"
+	"github.com/kolo/xmlrpc"
 	xsclient "github.com/xenserver/go-xenserver-client"
 )
 
