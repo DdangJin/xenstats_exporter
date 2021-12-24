@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"github.com/prometheus/client_golang/prometheus"
-	xsclient "github.com/xenserver/go-xenserver-client"
+	xsclient "github.com/DdangJin/go-xenserver-client"
 )
 
 // Xenstats -
