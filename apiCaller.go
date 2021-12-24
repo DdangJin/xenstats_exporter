@@ -6,7 +6,7 @@ import (
 	"net/url"
 
 	"github.com/kolo/xmlrpc"
-	xsclient "github.com/xenserver/go-xenserver-client"
+	xsclient "github.com/DdangJin/go-xenserver-client"
 )
 
 // ApiCaller hold information about the Xenserver and the credentials
